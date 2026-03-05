@@ -1,0 +1,37 @@
+:root {
+   --color-primary:    #53D0D4
+;
+   --color-secondary:   #53D0D8
+
+;
+}
+
+.text-primary { color: var(--color-primary) !important; }
+
+.text-primary-hover:hover {
+  color: var(--color-primary) !important;
+}
+
+.text-secondary-hover:hover {
+  color: var(--color-secondary) !important;
+}
+
+.bg-primary {
+  background-color: var(--color-primary) !important;
+}
+
+.bg-primary-hover:hover {
+  background-color: var(--color-primary) !important;
+}
+
+.bg-secondary-hover:hover {
+  background-color: var(--color-secondary) !important;
+}
+
+.border-primary {
+  border: 2px solid var(--color-primary) !important;
+}
+
+.border-secondary-hover:hover {
+  border: 2px solid var(--color-secondary) !important;
+}
